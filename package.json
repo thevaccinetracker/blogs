@@ -1,11 +1,11 @@
 {
-  "name": "my-blogs",
+  "name": "thevaccinetracker-blogs",
   "description": "A simplified blog for developers.",
   "author": "Suyash Deshpande",
   "version": "1.6.0",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/W3Layouts/gatsby-starter-delog/issues"
+    "url": "https://github.com/thevaccinetracker/blogs/issues"
   },
   "dependencies": {
     "bootstrap": "^4.5.0",

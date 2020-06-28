@@ -1,5 +1,5 @@
 import React from "react";
-import logo from "../images/logo.svg";
+import logo from "../images/logo-dark-mode.svg";
 import whatsappIcon from "../images/whatsappIcon.svg";
 import { Dropdown } from "semantic-ui-react";
 import twitterIcon from "../images/twitter.svg";
@@ -41,9 +41,10 @@ class MainHeader extends React.PureComponent {
           <div className="col-md-6 col-xs-12">
             <Link to="/">
               <img
-                src={logo}
+                // src={logo}'
+                // style={{content: `url(${logo})`}}
                 alt="The Vaccine Tracker Logo"
-                className="img img-responsive"
+                className="img img-responsive logo-image"
               />
             </Link>
           </div>

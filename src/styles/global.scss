@@ -640,3 +640,14 @@ body.light {
     }
   }
 }
+
+body.dark {
+  .logo-image {
+    content: url("/blogs/assets/logo-dark-mode.svg");
+  }
+}
+body.light {
+  .logo-image {
+    content: url("blogs/assets/logo-light-mode.svg");
+  }
+}

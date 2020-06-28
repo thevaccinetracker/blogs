@@ -3,8 +3,6 @@ import Helmet from "react-helmet";
 import { graphql } from "gatsby";
 import Layout from "../components/layout";
 import PostLink from "../components/post-link";
-// import HeroHeader from "../components/heroHeader";
-// import MainHeader from "../components/mainHeader";
 
 const IndexPage = ({
   data: {
