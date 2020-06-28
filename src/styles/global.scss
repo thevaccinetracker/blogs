@@ -1,4 +1,9 @@
-$font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+@import "~bootstrap/dist/css/bootstrap.min.css";
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
+// @import "~semantic-ui-css/semantic.min.css";
+
+$font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans,
+  Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
 
 html,
 body {
@@ -6,8 +11,45 @@ body {
   padding: 0;
 }
 * {
-  margin-top: 0
+  margin-top: 0;
 }
+
+$c0: #040932;
+$c1: #040a3d;
+$c2: #061058;
+$c3: #0a0769;
+$c4: #7c77ba;
+$c5: #feb9d3;
+$c6: #faebe7;
+$c7: #77caec;
+$c8: #5e8ce9;
+$c9: #783bfd;
+$c10: #5e36f7;
+$c11: #3830ef;
+$c12: #0f1243;
+$c13: #ffd84d;
+$c14: #05daa3;
+
+// Status Colors
+$sWarning: #ffa502;
+$sDanger: #ef321f;
+$sSuccess: #16a716;
+$sInfo: #0a2edc;
+
+// Greyscales
+$gs0: #ffffff;
+
+// Breakpoints
+$small-device: 768px;
+
+/* System Fonts as used by Medium and WordPress */
+body {
+  font-family: $font-family;
+  border-top: 10px solid var(--primary-color);
+  background-color: var(--background);
+  color: var(--text-color);
+}
+
 body.light {
   --primary-color: #381696;
   --primary-text-color: #fff;
@@ -34,9 +76,9 @@ body.dark {
   --featured-bg: #66578d;
   --featured-text: #fff;
   --secondary-color: #66578d;
-  --background: #0A041A;
-  --text-color: rgba(255,255,255,0.88);
-  --text-secondary-color: rgba(255,255,255,0.66);
+  background-color: #0a041a !important;
+  --text-color: rgba(255, 255, 255, 0.88);
+  --text-secondary-color: rgba(255, 255, 255, 0.66);
   --site-header: var(--background);
   --card-bg: #181326;
   --card-bdr: #181326;
@@ -50,13 +92,13 @@ body.dark {
   --contact-bdr: var(--card-bg);
   --input-bg: var(--card-bg);
 }
-/* System Fonts as used by Medium and WordPress */
-body {
-  font-family: $font-family;
-  border-top: 10px solid var(--primary-color);
-  background-color: var(--background);
-  color: var(--text-color);
+
+body.dark {
+  h2 {
+    color: white;
+  }
 }
+
 a {
   color: var(--primary-color);
   text-decoration: none;
@@ -90,6 +132,9 @@ a {
     &:last-child {
       margin-right: 0;
     }
+  }
+  label {
+    margin: 0;
   }
 }
 .site-header {
@@ -126,7 +171,7 @@ a {
   font-size: 16px;
   font-weight: 400;
   margin: 0 20px 0 0;
-  transition: background-color .3s linear;
+  transition: background-color 0.3s linear;
   &.-primary {
     background-color: var(--primary-color);
     border-color: var(--primary-color);
@@ -150,7 +195,7 @@ a {
 }
 .post {
   padding: 0;
-  background:var(--background);
+  background: var(--background);
   color: var(--text-color);
   line-height: 1.5;
   > .blog-post-content {
@@ -171,7 +216,6 @@ a {
     margin-bottom: 32px;
     text-align: center;
   }
-  
 }
 .post-thumbnail {
   text-align: center;
@@ -191,7 +235,7 @@ a {
   overflow: hidden;
   &:before {
     content: "";
-    background: rgba(0,0,0,0.4);
+    background: rgba(0, 0, 0, 0.4);
     position: absolute;
     top: 0;
     left: 0;
@@ -204,7 +248,7 @@ a {
     z-index: 2;
   }
   .post-meta {
-    color: rgba(255,255,255,0.8);
+    color: rgba(255, 255, 255, 0.8);
     margin-bottom: 0;
   }
 }
@@ -269,8 +313,8 @@ a {
     margin-bottom: 0.5rem;
     color: var(--text-secondary-color);
   }
-  input[type=text],
-  input[type=email],
+  input[type="text"],
+  input[type="email"],
   textarea {
     appearance: none;
     border: 1px solid var(--card-shadow);
@@ -298,14 +342,12 @@ a {
   }
 }
 /* Portrait and Landscape */
-@media only screen 
-and (min-width: 768px) {
-.grids {
-  grid-template-columns: 1fr 1fr;
+@media only screen and (min-width: 768px) {
+  .grids {
+    grid-template-columns: 1fr 1fr;
+  }
 }
-}
-@media only screen 
-  and (min-width: 1024px) {
+@media only screen and (min-width: 1024px) {
   .grids {
     grid-template-columns: 1fr 1fr 1fr;
   }
@@ -315,7 +357,6 @@ and (min-width: 768px) {
     grid-gap: 64px;
   }
 }
-
 
 // theme-changer
 .theme-changer {
@@ -335,32 +376,29 @@ body.light {
   width: 24px;
   height: 24px;
   margin-left: 20px;
+  margin-top: 1rem;
   cursor: pointer;
 }
 // CSS.gg icons for sun and moon
 .gg-sun {
   box-sizing: border-box;
+  color: white;
   position: relative;
   display: block;
-  transform: scale(var(--ggs,1));
+  transform: scale(var(--ggs, 1));
   width: 24px;
   height: 24px;
-  background:
-    linear-gradient(to bottom,
-        currentColor 4px,transparent 0)
-        no-repeat 5px -6px/2px 6px,
-    linear-gradient(to bottom,
-        currentColor 4px,transparent 0)
-        no-repeat 5px 14px/2px 6px,
-    linear-gradient(to bottom,
-        currentColor 4px,transparent 0)
-        no-repeat -8px 5px/6px 2px,
-    linear-gradient(to bottom,
-        currentColor 4px,transparent 0)
-        no-repeat 14px 5px/6px 2px;
+  background: linear-gradient(to bottom, currentColor 4px, transparent 0)
+      no-repeat 5px -6px/2px 6px,
+    linear-gradient(to bottom, currentColor 4px, transparent 0) no-repeat 5px
+      14px/2px 6px,
+    linear-gradient(to bottom, currentColor 4px, transparent 0) no-repeat -8px 5px/6px
+      2px,
+    linear-gradient(to bottom, currentColor 4px, transparent 0) no-repeat 14px
+      5px/6px 2px;
   border-radius: 100px;
   box-shadow: inset 0 0 0 2px;
-  border: 6px solid transparent
+  border: 6px solid transparent;
 }
 .gg-sun::after,
 .gg-sun::before {
@@ -373,36 +411,232 @@ body.light {
   border-right: 4px solid;
   border-left: 4px solid;
   left: -6px;
-  top: 5px
+  top: 5px;
 }
 .gg-sun::before {
-  transform: rotate(-45deg)
+  transform: rotate(-45deg);
 }
 .gg-sun::after {
-  transform: rotate(45deg)
+  transform: rotate(45deg);
 }
 .gg-moon,
 .gg-moon::after {
-    display: block;
-    box-sizing: border-box;
-    border-radius: 50%
+  display: block;
+  box-sizing: border-box;
+  border-radius: 50%;
 }
 .gg-moon {
-    overflow: hidden;
-    position: relative;
-    transform: rotate(-135deg) scale(var(--ggs,1));
-    width: 20px;
-    height: 20px;
-    border: 2px solid;
-    border-bottom-color: transparent
+  overflow: hidden;
+  position: relative;
+  transform: rotate(-135deg) scale(var(--ggs, 1));
+  width: 20px;
+  height: 20px;
+  border: 2px solid;
+  border-bottom-color: transparent;
 }
 .gg-moon::after {
-    content: "";
-    position: absolute;
-    width: 12px;
-    height: 18px;
-    border: 2px solid transparent;
-    box-shadow: 0 0 0 2px;
-    top: 8px;
-    left: 2px
+  content: "";
+  position: absolute;
+  width: 12px;
+  height: 18px;
+  border: 2px solid transparent;
+  box-shadow: 0 0 0 2px;
+  top: 8px;
+  left: 2px;
+}
+
+.mainHeader {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 0px;
+
+  .virusMainStatus {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-top: 20px;
+
+    .liveUpdates {
+      width: 10px;
+      height: 10px;
+      background: $c0;
+      border-radius: 40px;
+      margin-right: 5px;
+    }
+
+    ul {
+      display: flex;
+      margin-bottom: 0px;
+      align-items: center;
+      justify-content: flex-end;
+
+      li {
+        list-style-type: none;
+        margin-left: -25px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+      }
+    }
+
+    .virusType {
+      border-radius: 6px;
+      color: $c0;
+      background-color: $c5;
+      // padding: 4px 14px 4px 13px;
+      padding: 4px 10px 4px 8px;
+      font-weight: 800;
+      z-index: 1;
+    }
+
+    .vaccineStatus {
+      background: $c4;
+      // padding: 4px 20px 4px 40px;
+      padding: 4px 13px 4px 40px;
+      border-radius: 6px;
+      font-weight: 800;
+      color: $gs0;
+      z-index: 0;
+    }
+
+    .treatmentStatus {
+      background: $sWarning;
+    }
+  }
+
+  @media only screen and (max-width: $small-device) {
+    .virusMainStatus {
+      font-size: 12px;
+      float: left;
+
+      ul {
+        padding: 0;
+
+        li {
+          margin-left: 0;
+        }
+
+        li:not(:first-child) {
+          white-space: nowrap;
+          margin-left: -25px;
+        }
+      }
+    }
+    & {
+      margin-top: 40px;
+    }
+  }
+}
+
+@media only screen and (min-width: $small-device) {
+  .ui.dropdown .menu > .item:first-child {
+    display: none !important;
+  }
+}
+.ui.dropdown .menu {
+  right: 0 !important;
+  left: auto !important;
+}
+
+.shareButton {
+  background-color: $c14;
+  padding: 4px 10px;
+  color: $c0;
+  border-radius: 6px;
+  margin-left: 10px;
+
+  .icon {
+    float: left;
+  }
+
+  .menu {
+    padding: 12px 0 !important;
+  }
+
+  .menu {
+    .item {
+      display: flex !important;
+    }
+
+    &::after {
+      display: none !important;
+    }
+  }
+}
+
+.mainFooter {
+  margin-bottom: 40px;
+  margin-top: 40px;
+
+  .socialMediaIconsSection {
+    display: flex;
+
+    .followUS {
+      margin-right: 10px;
+      margin-top: 8px;
+    }
+
+    .socialMediaIcons {
+      width: 40px;
+
+      &:not(:first-child) {
+        margin-left: 5px;
+      }
+    }
+  }
+
+  .allthelinks {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 33px;
+  }
+
+  ul {
+    padding: 0;
+
+    li {
+      display: inline;
+
+      a {
+        color: $c7;
+        font-size: 12px;
+      }
+    }
+
+    li:not(:first-child) {
+      margin-left: 20px;
+    }
+  }
+
+  .paragraph {
+    color: $c4;
+  }
+
+  @media only screen and (max-width: $small-device) {
+    ul {
+      text-align: center;
+      margin-top: 10px;
+
+      li {
+        display: inline-block;
+      }
+    }
+
+    .socialMediaIconsSection {
+      display: flex;
+      justify-content: center;
+      margin-bottom: 20px;
+
+      .followUS {
+        display: none;
+      }
+    }
+
+    .allthelinks {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  }
 }
