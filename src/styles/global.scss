@@ -216,6 +216,9 @@ a {
     margin-bottom: 32px;
     text-align: center;
   }
+  .post-author {
+    font-size: 1.25rem;
+  }
 }
 .post-thumbnail {
   text-align: center;
@@ -295,6 +298,10 @@ a {
   font-size: 0.8rem;
   color: var(--text-secondary-color);
 }
+.post-author {
+  color: var(--text-secondary-color);
+}
+
 .site-footer {
   text-align: center;
   margin: 90px 0 16px;
