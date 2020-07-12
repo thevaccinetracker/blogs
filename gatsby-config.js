@@ -45,7 +45,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `theVaccineTracker Blogs`,
+        name: `Blogs | The Vaccine Tracker`,
         short_name: `theVaccineTracker`,
         start_url: `/`,
         background_color: `#fff`,

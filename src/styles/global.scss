@@ -107,7 +107,7 @@ a {
   }
 }
 .site-wrapper {
-  padding: 32px;
+  padding: 20px 0;
   max-width: 1140px;
   margin: 0 auto;
   img {
@@ -383,7 +383,7 @@ body.light {
   width: 24px;
   height: 24px;
   margin-left: 20px;
-  margin-top: 1rem;
+  margin-top: 5px;
   cursor: pointer;
 }
 // CSS.gg icons for sun and moon
@@ -648,13 +648,24 @@ body.light {
   }
 }
 
+
+.logo-image{
+  width: 160px;
+  height: 61px;
+  background-image: url("../images/dark-bg-logo.svg");
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
 body.dark {
   .logo-image {
-    content: url("/blogs/assets/logo-dark-mode.svg");
+    // background-image: url("../images/dark-bg-logo.svg"); //for Dev
+    background-image: url("/blogs/assets/dark-bg-logo.svg"); //for Prod
   }
 }
 body.light {
   .logo-image {
-    content: url("/blogs/assets/logo-light-mode.svg");
+    // background-image: url("../images/light-bg-logo.svg"); //for Dev
+    background-image: url("/blogs/assets/light-bg-logo.svg"); //for Prod
   }
 }
