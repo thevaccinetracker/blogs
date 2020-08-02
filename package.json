@@ -34,7 +34,7 @@
   },
   "devDependencies": {
     "gh-pages": "^3.0.0",
-    "prettier": "^1.19.1"
+    "prettier": "^2.0.5"
   },
   "homepage": "https://github.com/W3Layouts/gatsby-starter-delog#readme",
   "keywords": [
