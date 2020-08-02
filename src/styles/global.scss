@@ -652,20 +652,19 @@ body.light {
 .logo-image{
   width: 160px;
   height: 61px;
-  background-image: url("../images/dark-bg-logo.svg");
   background-position: center center;
   background-repeat: no-repeat;
 }
 
 body.dark {
   .logo-image {
-    // background-image: url("../images/dark-bg-logo.svg"); //for Dev
+     //background-image: url("../images/dark-bg-logo.svg"); //for Dev
     background-image: url("/blogs/assets/dark-bg-logo.svg"); //for Prod
   }
 }
 body.light {
   .logo-image {
-    // background-image: url("../images/light-bg-logo.svg"); //for Dev
+     //background-image: url("../images/light-bg-logo.svg"); //for Dev
     background-image: url("/blogs/assets/light-bg-logo.svg"); //for Prod
   }
 }

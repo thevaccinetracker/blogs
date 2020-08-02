@@ -40,9 +40,7 @@ class MainHeader extends React.PureComponent {
         <div className="row">
           <div className="col-md-6 col-xs-12">
             <a href="https://thevaccinetracker.com">
-              <div className="logo-image">
-
-              </div>
+              <div className="logo-image"/>
             </a>
           </div>
           <div className="col-md-5 col-xs-12">
