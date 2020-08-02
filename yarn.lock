@@ -945,9 +945,9 @@
     regenerator-runtime "^0.13.4"
 
 "@babel/runtime@^7.0.0", "@babel/runtime@^7.1.2", "@babel/runtime@^7.10.2", "@babel/runtime@^7.10.3", "@babel/runtime@^7.2.0", "@babel/runtime@^7.3.4", "@babel/runtime@^7.4.2", "@babel/runtime@^7.4.5", "@babel/runtime@^7.5.5", "@babel/runtime@^7.6.3", "@babel/runtime@^7.7.2", "@babel/runtime@^7.8.4", "@babel/runtime@^7.8.7", "@babel/runtime@^7.9.2":
-  version "7.10.5"
-  resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.10.5.tgz#303d8bd440ecd5a491eae6117fd3367698674c5c"
-  integrity sha512-otddXKhdNn7d0ptoFRHtMLa8LqDxLYwTjB4nYgM1yy5N6gU/MUf8zqyyLltCH3yAVitBzmwK4us+DD0l/MauAg==
+  version "7.10.4"
+  resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.10.4.tgz#a6724f1a6b8d2f6ea5236dbfe58c7d7ea9c5eb99"
+  integrity sha512-UpTN5yUJr9b4EX2CnGNWIvER7Ab83ibv0pcvvHc4UOdrBI5jb8bj+32cCwPX6xu0mt2daFNjYhoi+X7beH0RSw==
   dependencies:
     regenerator-runtime "^0.13.4"
 
@@ -1733,7 +1733,7 @@
     "@types/history" "*"
     "@types/react" "*"
 
-"@types/react-transition-group@^4.4.0":
+"@types/react-transition-group@^4.2.4":
   version "4.4.0"
   resolved "https://registry.yarnpkg.com/@types/react-transition-group/-/react-transition-group-4.4.0.tgz#882839db465df1320e4753e6e9f70ca7e9b4d46d"
   integrity sha512-/QfLHGpu+2fQOqQaXh8MG9q03bFENooTb/it4jr5kKaZlDQfWvjqWZg48AwzPVMBHlRuTRAY7hRHCEOXz5kV6w==
@@ -1749,9 +1749,9 @@
     csstype "^2.2.0"
 
 "@types/react@^16.9.11", "@types/react@^16.9.35":
-  version "16.9.43"
-  resolved "https://registry.yarnpkg.com/@types/react/-/react-16.9.43.tgz#c287f23f6189666ee3bebc2eb8d0f84bcb6cdb6b"
-  integrity sha512-PxshAFcnJqIWYpJbLPriClH53Z2WlJcVZE+NP2etUtWQs2s7yIMj3/LDKZT/5CHJ/F62iyjVCDu2H3jHEXIxSg==
+  version "16.9.41"
+  resolved "https://registry.yarnpkg.com/@types/react/-/react-16.9.41.tgz#925137ee4d2ff406a0ecf29e8e9237390844002e"
+  integrity sha512-6cFei7F7L4wwuM+IND/Q2cV1koQUvJ8iSV+Gwn0c3kvABZ691g7sp3hfEQHOUBJtccl1gPi+EyNjMIl9nGA0ug==
   dependencies:
     "@types/prop-types" "*"
     csstype "^2.2.0"
@@ -6160,10 +6160,10 @@ gatsby-cli@^2.12.47:
     yargs "^15.3.1"
     yurnalist "^1.1.2"
 
-gatsby-core-utils@^1.3.14, gatsby-core-utils@^1.3.6:
-  version "1.3.14"
-  resolved "https://registry.yarnpkg.com/gatsby-core-utils/-/gatsby-core-utils-1.3.14.tgz#a830412a9edb87544bc0d1ad9c2556d33aa0d157"
-  integrity sha512-jfC+x5rrYUfl70MHRLsOtsXqdlqIbQGVDKXrvp6IPIUP8TKU6XIpYktF0Yd4ldJIWmGZTa062RWUOd2DFBHVSw==
+gatsby-core-utils@^1.3.6:
+  version "1.3.6"
+  resolved "https://registry.yarnpkg.com/gatsby-core-utils/-/gatsby-core-utils-1.3.6.tgz#5a001593276b0c1cc4a3c6c9a34da428e9374590"
+  integrity sha512-ptd//w6MX1/hUGO2KBffSUKSYIVU3SFRM2cKXN3CMmCQvn8ul2OHCjpNY8MyZQuluWk8nRtvhjEGrl+KJtcOnw==
   dependencies:
     ci-info "2.0.0"
     configstore "^5.0.1"
@@ -6386,27 +6386,27 @@ gatsby-remark-emojis@^0.4.2:
   resolved "https://registry.yarnpkg.com/gatsby-remark-emojis/-/gatsby-remark-emojis-0.4.3.tgz#44552fa6782442f23b3ee310d55612e77126f01b"
   integrity sha512-bOeh3Bu8Oo4Lf8QhERAcVIunD+UBroXPfTkxNEL0yBySo5KZYwib3/gbUHeOUw3VYWGv79BFrVNLL7xuFoWFhw==
 
-gatsby-remark-prismjs@^3.3.31:
-  version "3.5.4"
-  resolved "https://registry.yarnpkg.com/gatsby-remark-prismjs/-/gatsby-remark-prismjs-3.5.4.tgz#9120285b0e9a5fc4e23d4c1148991c7a3d86fb02"
-  integrity sha512-QlLLRk3M8DHR0VS4mk5bzVWpdNfof6oAujO4k0ENUTOokO+1nsWkuqMw+FAUwtfVbF2I5V+gl2rwbfzjXB2KrQ==
+gatsby-remark-prismjs@^3.5.10:
+  version "3.5.10"
+  resolved "https://registry.yarnpkg.com/gatsby-remark-prismjs/-/gatsby-remark-prismjs-3.5.10.tgz#4291818501c2d3f5970830b9509592efaf0f6b07"
+  integrity sha512-1lywDdXyu+y7ieZ7PsrXgwtso1n59gO5btHdbZXCFpvuYt7MHoJhb0FewkbsZ3goJMJ2q8yug5jEGaRKX2vSOQ==
   dependencies:
-    "@babel/runtime" "^7.10.2"
+    "@babel/runtime" "^7.10.3"
     parse-numeric-range "^0.0.2"
     unist-util-visit "^1.4.1"
 
-gatsby-source-filesystem@^2.3.23:
-  version "2.3.23"
-  resolved "https://registry.yarnpkg.com/gatsby-source-filesystem/-/gatsby-source-filesystem-2.3.23.tgz#c97f37383febfd6ecb549307a2841f20e4e16122"
-  integrity sha512-OkSefJZscSlf7tjJQIMHpzsf3evDcqf4T1iunMEwL1Qj1iZVD/6UbRIf1kJLt5SS8tGtvsqDNyaQ8Al7rsuJ1g==
+gatsby-source-filesystem@^2.1.48:
+  version "2.3.12"
+  resolved "https://registry.yarnpkg.com/gatsby-source-filesystem/-/gatsby-source-filesystem-2.3.12.tgz#d92cb9c6c4685ab272399b57f42134dcc61effdf"
+  integrity sha512-VFyQCpmbt+VGvXkd6Yrm0EmoVQ7vv3bAHSsy3pnXK61Ak3lQxGcwZlPU/z9famoODCTkePnkL1vtY6pxdCZ1FA==
   dependencies:
-    "@babel/runtime" "^7.10.3"
+    "@babel/runtime" "^7.10.2"
     better-queue "^3.8.10"
     bluebird "^3.7.2"
     chokidar "3.4.0"
     file-type "^12.4.2"
     fs-extra "^8.1.0"
-    gatsby-core-utils "^1.3.14"
+    gatsby-core-utils "^1.3.6"
     got "^9.6.0"
     md5-file "^3.2.3"
     mime "^2.4.6"
@@ -6414,7 +6414,7 @@ gatsby-source-filesystem@^2.3.23:
     progress "^2.0.3"
     read-chunk "^3.2.0"
     valid-url "^1.0.9"
-    xstate "^4.11.0"
+    xstate "^4.10.0"
 
 gatsby-telemetry@^1.3.12:
   version "1.3.12"
@@ -11842,9 +11842,9 @@ react-aria-menubutton@^6.0.0:
     teeny-tap "^0.2.0"
 
 react-bootstrap@^1.0.1:
-  version "1.3.0"
-  resolved "https://registry.yarnpkg.com/react-bootstrap/-/react-bootstrap-1.3.0.tgz#d9dde4ad554e9cd21d1465e8b5e5ef6679cae6a1"
-  integrity sha512-GYj0c6FO9mx7DaO8Xyz2zs0IcQ6CGCtM3O6/feIoCaG4N8B0+l4eqL7stlMcLpqO4d8NG2PoMO/AbUOD+MO7mg==
+  version "1.1.1"
+  resolved "https://registry.yarnpkg.com/react-bootstrap/-/react-bootstrap-1.1.1.tgz#986606d8777b97e4eeeb365592aadc154520b557"
+  integrity sha512-DsJ1aaXQPa3ob/Bh2JXnbWmZJHNxS18HbiJdyBhumf6OHk6rVXo329uwa2lHI0ZuxPO3mA8OJLOT0lighV/e8Q==
   dependencies:
     "@babel/runtime" "^7.4.2"
     "@restart/context" "^2.1.4"
@@ -11853,15 +11853,15 @@ react-bootstrap@^1.0.1:
     "@types/invariant" "^2.2.33"
     "@types/prop-types" "^15.7.3"
     "@types/react" "^16.9.35"
-    "@types/react-transition-group" "^4.4.0"
+    "@types/react-transition-group" "^4.2.4"
     "@types/warning" "^3.0.0"
     classnames "^2.2.6"
     dom-helpers "^5.1.2"
     invariant "^2.2.4"
     prop-types "^15.7.2"
     prop-types-extra "^1.1.0"
-    react-overlays "^4.1.0"
-    react-transition-group "^4.4.1"
+    react-overlays "^3.2.0"
+    react-transition-group "^4.0.0"
     uncontrollable "^7.0.0"
     warning "^4.0.3"
 
@@ -12015,10 +12015,10 @@ react-onclickoutside@^6.5.0:
   resolved "https://registry.yarnpkg.com/react-onclickoutside/-/react-onclickoutside-6.9.0.tgz#a54bc317ae8cf6131a5d78acea55a11067f37a1f"
   integrity sha512-8ltIY3bC7oGhj2nPAvWOGi+xGFybPNhJM0V1H8hY/whNcXgmDeaeoCMPPd8VatrpTsUWjb/vGzrmu6SrXVty3A==
 
-react-overlays@^4.1.0:
-  version "4.1.0"
-  resolved "https://registry.yarnpkg.com/react-overlays/-/react-overlays-4.1.0.tgz#755a890519b02e3904845172d5223ff2dfb1bb29"
-  integrity sha512-vdRpnKe0ckWOOD9uWdqykLUPHLPndIiUV7XfEKsi5008xiyHCfL8bxsx4LbMrfnxW1LzRthLyfy50XYRFNQqqw==
+react-overlays@^3.2.0:
+  version "3.2.0"
+  resolved "https://registry.yarnpkg.com/react-overlays/-/react-overlays-3.2.0.tgz#ed8335adb0871e701b0fc8396c44dfd2467e7a55"
+  integrity sha512-YTgCmw6l4uBOYylSnc3V8WLX+A0EoGnzDrqkYz0K7MUKbMBZFpaxLXH4EF9eZbspd+syZHQ5XAABI7n/zak1EA==
   dependencies:
     "@babel/runtime" "^7.4.5"
     "@popperjs/core" "^2.0.0"
@@ -12225,7 +12225,7 @@ react-transition-group@^2.2.1, react-transition-group@^2.6.0:
     prop-types "^15.6.2"
     react-lifecycles-compat "^3.0.4"
 
-react-transition-group@^4.4.1:
+react-transition-group@^4.0.0:
   version "4.4.1"
   resolved "https://registry.yarnpkg.com/react-transition-group/-/react-transition-group-4.4.1.tgz#63868f9325a38ea5ee9535d828327f85773345c9"
   integrity sha512-Djqr7OQ2aPUiYurhPalTrVy9ddmFCCzwhqQmtN+J3+3DzLO209Fdr70QrN8Z3DsglWql6iY1lDWAfpFiBtuKGw==
@@ -15818,10 +15818,10 @@ xss@^1.0.6:
     commander "^2.20.3"
     cssfilter "0.0.10"
 
-xstate@^4.10.0, xstate@^4.11.0:
-  version "4.11.0"
-  resolved "https://registry.yarnpkg.com/xstate/-/xstate-4.11.0.tgz#dc0bd31079fe22918c2c27c118d6310bef3dcd9e"
-  integrity sha512-v+S3jF2YrM2tFOit8o7+4N3FuFd9IIGcIKHyfHeeNjMlmNmwuiv/IbY9uw7ECifx7H/A9aGLcxPSr0jdjTGDww==
+xstate@^4.10.0:
+  version "4.10.0"
+  resolved "https://registry.yarnpkg.com/xstate/-/xstate-4.10.0.tgz#f87e4ef593fe40300b8eec50a5d9f0763aa4f622"
+  integrity sha512-nncQ9gW+xgk5iUEvpBOXhbzSCS0uwzzT4bOAXxo6oUoALgbxzqEyMmaMYwuvOHrabDTdMJYnF+xe2XD8RRgWmA==
 
 xtend@^4.0.0, xtend@^4.0.1, xtend@~4.0.1:
   version "4.0.2"
